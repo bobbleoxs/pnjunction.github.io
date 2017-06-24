@@ -1,30 +1,21 @@
-/* This is a CSS comment. Notice that CSS comments are
-enclosed by different characters than HTML comments. */
-
-/* Reset (credit: http://meyerweb.com/eric/tools/css/reset/)
-================================================== */
 html{
     background: url(homepagefinal.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
-
 body, div, span, h2, h3, p, em, img, b, u, i, li, ul {
-		margin: 5; 
-		padding: 10;
-		border: 0;
-		font-size: 100%;
-		vertical-align: baseline; }
+		margin: 5px;
+		padding: 5px;
+	  font-size: 100%;
+		vertical-align: baseline;
+}
 
 h1 {
 	line-height: normal;
     color: white;
     font:2.8em "Open Sans Light", sans-serif;
     padding-left: 50px;
-  }
+}
 
 li a {
     line-height: normal;
@@ -33,8 +24,7 @@ li a {
     color: white;
     font:1.65em "Raleway", sans-serif;
     text-decoration: none;
-
-  }
+}
 
 li {
     float: right;
@@ -44,8 +34,8 @@ ul {
     list-style:none;
     margin-left: 0;
     padding-left: 0;
-    }
+}
 
 li a:hover {
         background-color: #5e5e5e;
-      }
+}
