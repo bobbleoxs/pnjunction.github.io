@@ -68,7 +68,7 @@
 
 	<script type="text/javascript">
 
-var NameProvider = ["United Kingdom","France","Australia","China","Germany","United States","Ireland","SG"];
+var NameProvider = ["United Kingdom","France","Australia","China","Germany","United States","Ireland","Singapore"];
 
 var matrix = [
 [9.6899,0.8859,0.0554,0.443,2.5471,2.4363,0.5537,2.5471], //United Kingdom
@@ -159,11 +159,11 @@ ticks.append("svg:text")
 
 g.append("svg:text")
   .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
-  .attr("dy", ".35em")
+  .attr("dy", ".30em")
   .attr("class", "titles")
   .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
   .attr("transform", function(d) {
-		return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+		return "rotate(" + (d.angle * 180 / Math.PI - 75) + ")"
 		+ "translate(" + (innerRadius + 55) + ")"
 		+ (d.angle > Math.PI ? "rotate(180)" : "");
   })
