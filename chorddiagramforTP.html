@@ -163,8 +163,8 @@ g.append("svg:text")
   .attr("class", "titles")
   .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
   .attr("transform", function(d) {
-		return "rotate(" + (d.angle * 180 / Math.PI - 75) + ")"
-		+ "translate(" + (innerRadius + 55) + ")"
+		return "rotate(" + (d.angle * 180 / Math.PI - 100) + ")"
+		+ "translate(" + (innerRadius + 35) + ")"
 		+ (d.angle > Math.PI ? "rotate(180)" : "");
   })
   .text(function(d,i) { return NameProvider[i]; });
